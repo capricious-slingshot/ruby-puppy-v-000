@@ -5,4 +5,8 @@ class Dog
 	def initialize(name)
 		@name = name
 	end
+
+	def self.claer_all
+		@@all.clear
+	end
 end
