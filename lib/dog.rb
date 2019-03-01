@@ -1,4 +1,5 @@
 require 'pry'
+
 class Dog
   @@all = []
 	attr_reader :name
